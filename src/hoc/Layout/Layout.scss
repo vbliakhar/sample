@@ -1,0 +1,43 @@
+body{
+  background: grey;
+  z-index: 100;
+  display: fixed;
+}
+.HomePage_Layout{
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+
+  .HomePage{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: 60;
+    ul{
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      background-color: red;
+      width: 700px;
+      height: 50px;
+  
+      li{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+          cursor: pointer;
+          background: rgba(0,0,0,0.1);
+          color: white;
+        }
+      }
+    }
+  }
+
+  
+}
